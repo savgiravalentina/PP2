@@ -1,0 +1,7 @@
+C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task4\task4\bin\Debug\task4.exe.config
+C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task4\task4\bin\Debug\task4.exe
+C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task4\task4\bin\Debug\task4.pdb
+C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task4\task4\obj\Debug\task4.csprojAssemblyReference.cache
+C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task4\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task4\task4\obj\Debug\task4.exe
+C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task4\task4\obj\Debug\task4.pdb
