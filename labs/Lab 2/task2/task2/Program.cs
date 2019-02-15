@@ -11,7 +11,7 @@ namespace task2
     {
         static void Main(string[] args)
         {
-            //function to identify prime numbers
+            //function to identify prime numbers has crt=0  and if x%i =0 then crt ++ i from one to less or equal x
             bool isPrime(int x)
             {
                 int crt = 0;
@@ -22,18 +22,18 @@ namespace task2
                         crt++;
                     }
                 }
-                if (crt == 2) return true;
-                return false;
+                if (crt == 2) return true; //like divides na 1 and samo sebya
+                return false; //even more than 2
             }
             //setting the pah for in and output files
-            StreamReader sr = new StreamReader(@"C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task2\read.txt");
-            StreamWriter sw = new StreamWriter(@"C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task2\write.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task2\read.txt"); //stream reader to read numbers
+            StreamWriter sw = new StreamWriter(@"C:\Users\vsavg\Desktop\pp2-labs\Lab 2\task2\write.txt"); //stream writer to write results
             //creating an array of elemetns from input file
-            string[] arr = sr.ReadLine().Split();
-            for (int i = 0; i < arr.Length; i++)
+            string[] arr = sr.ReadLine().Split(); //split to separate numbers as individual
+            for (int i = 0; i < arr.Length; i++) // uuuntil i is not equal arrays length parse to int x and use function isPrime
             {
                 int x = int.Parse(arr[i]);
-                if (isPrime(x) == true)
+                if (isPrime(x) == true) //if given number is prime we gonna write it to sw 
                 {
                     //writing numbers, that satisfies given condition
                     sw.Write(x + " ");

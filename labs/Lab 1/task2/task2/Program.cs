@@ -12,7 +12,7 @@ namespace task2
         private string id;
         private int year;
 
-        public Student(string name, string id, int year)
+        public Student(string name, string id, int year) //inside brackets what values are included for student
         {
             this.name = name; //next time when we will write name it will be приравнен to this name
             this.id = id; //the same as name
@@ -27,8 +27,8 @@ namespace task2
         }
         public static void Main()
         {
-            Student s1 = new Student("Valentina", " 18BD987654 ", 2);
-            Console.WriteLine(s1.result);
+            Student s1 = new Student("Valentina", " 18BD987654 ", 2); //values from public student
+            Console.WriteLine(s1.result); //results show get return name+id+year
             Console.ReadKey();
         }
     }
